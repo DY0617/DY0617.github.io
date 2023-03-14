@@ -495,7 +495,8 @@ footer {
   max-width: 700px;
   margin: 0 auto 30px auto;
   padding: 15px;
-  border: 1px solid #dcd9d9;
+  border: none;
+    background: #F2F2F5;
   text-align: left;
 }
 .education-block h3 {
@@ -589,6 +590,7 @@ footer {
 #skills {
   padding: 50px 15px;
   text-align: center;
+  border-bottom: 1px solid #dcd9d9;
 }
 #skills h2 {
   color: #374054;
@@ -613,7 +615,61 @@ footer {
 
 /*
     -------------------------------
-    ----- 10. Contact Styles -----
+    ----- 10. Certificate Styles -----
+    -------------------------------
+*/
+#certificate {
+  padding: 50px 15px;
+  text-align: center;
+}
+#certificate h2 {
+  color: #374054;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.certificate-block {
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: none;
+  background: #F2F2F5;
+  text-align: center;
+
+}
+.certificate-block h3 {
+  font-weight: 500;
+  float: left;
+  margin: 0;
+  color: #374054;
+  text-align: center;
+}
+.certificate-block span {
+  color: #74808a;
+  float: right;
+  text-align: center;
+}
+.certificate-block h4 {
+  color: #74808a;
+  clear: both;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  font-size: 2em;
+  text-align: center;
+}
+.certificate-block p, .certificate-block ul {
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
+}
+.certificate-block ul {
+  padding: 0 0 0 15px;
+}
+
+
+/*
+    -------------------------------
+    ----- 11. Contact Styles -----
     -------------------------------
 */
 #contact {
@@ -682,7 +738,7 @@ footer {
 
 /*
     ---------------------------------------
-    ----- 11. Optional Section Styles -----
+    ----- 12. Optional Section Styles -----
     ---------------------------------------
 */
 .optional-section {
@@ -724,7 +780,7 @@ footer {
 
 /*
     -----------------------------
-    ----- 12. Media Queries -----
+    ----- 13. Media Queries -----
     -----------------------------
 */
 @media only screen and (max-width: 750px) {
